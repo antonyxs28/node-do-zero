@@ -1,0 +1,24 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+  "title": "My Tree node",
+  "description": "An introduction to my video series.",
+  "duration": 240
+}
+
+###
+GET http://localhost:3333/videos
+
+###
+PUT http://localhost:3333/videos/dc579ece-7ff9-4295-9dea-8120914566e9
+Content-Type: application/json
+
+{
+  "title": "My Two Video antony",
+  "description": "An introduction to my video series.",
+  "duration": 240
+}
+
+### 
+DELETE http://localhost:3333/videos/1c004d9a-385e-4c51-917e-ce2964f19f21
